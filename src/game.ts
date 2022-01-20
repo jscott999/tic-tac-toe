@@ -13,10 +13,10 @@ export class Game {
     this.canvas = new Canvas();
 
     // TODO: mess with these
-    let radius = 90; // size
-    let color = 'goldenrod';
-    let xPos = 300;
-    let yPos = innerHeight / 2;
+    let radius = 70; // size
+    let color = 'purple';
+    let xPos = 490;
+    let yPos = innerHeight / 3.2;
     // -----------------
 
     this.ball = new Ball(radius, color, xPos, yPos);
